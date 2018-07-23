@@ -11,6 +11,7 @@ module NPPESApi
       :last_name,
       :middle_name,
       :name,
+      :organization_name,
       :gender,
       :sole_proprietor,
       :last_updated,
