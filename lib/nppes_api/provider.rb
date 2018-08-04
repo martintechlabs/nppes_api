@@ -3,6 +3,10 @@ module NPPESApi
     def initialize(data)
       @data = data
     end
+    
+    def raw_data
+      @data
+    end  	
 
     def taxonomies
       @taxonomies ||= @data['taxonomies'].map { |i| Taxonomy.new(i) }
